@@ -72,7 +72,7 @@ function updateTask($conn, $id, $status = null, $title = null) {
         // Bind the new title and task ID to the SQL statement
         $stmt->bind_param("si", $title, $id);
     }
-    // Execute the statement and return the result
+    
     return $stmt->execute();
 }
 ?>
