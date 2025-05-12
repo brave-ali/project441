@@ -14,7 +14,7 @@ $(document).ready(function() {
                 if (res.status == 'success') {
                     location.reload(); // Reload the page if the task was added successfully
                 } else {
-                    alert('Failed to add task'); // Show an error message if the task addition failed
+                    alert('Failed to add the task'); // Show an error message if the task addition failed
                 }
             }
         });
